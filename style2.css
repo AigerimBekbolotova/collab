@@ -8,6 +8,9 @@
     border-radius: 20px;
     font-family: 'Rubik', sans-serif;
 }
+h2{
+    font-size: 14px;
+}
 .part1{
     display: flex;
 }
@@ -26,6 +29,10 @@ input::-webkit-input-placeholder {
 }
 p{
     margin-bottom: 0;
+    font-size: 14px;
+}
+.creditinfo{
+    margin-top: 24px;
 }
 .companyinput{
     width: 200px;
