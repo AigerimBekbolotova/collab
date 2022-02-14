@@ -40,6 +40,16 @@ input{
     margin-right: 7px;
 }
 
+
+.lastname {
+    margin-left: 20px;
+}
+
+.firstname {
+    margin-right: 20px;
+}
+
+
 .passport-info{
     text-align: left;
     margin-left: 24px;
