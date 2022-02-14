@@ -14,6 +14,9 @@
 .part2{
     display: flex;
 }
+.part4{
+    display: flex;
+}
 input{
     width: 190px;
     height: 50px;
@@ -23,6 +26,9 @@ input{
     border: 1px solid #AEAEAE;
     margin-top: 8px;
     font-size: 14px;
+}
+input::-webkit-input-placeholder {
+    color: #DADADA;
 }
 p{
     margin-bottom: 0;
@@ -35,4 +41,11 @@ p{
 }
 .earn{
     width: 304px;
+}
+.phone{
+    width: 625px;
+}
+.coast{
+    width: 200px;
+    margin-right: 13px;
 }
