@@ -7,35 +7,69 @@
 </head>
 <body>
     <div class="container">
+        <h2>Анкета для корпоративных клиентов</h2>
+        <p class="p1">Личные данные</p>
         <div class="info">
-            <h2>Анкета для корпоративных клиентов</h2>
-            <p>Личные данные</p>
-            <input class="input lastname" type="text" placeholder="Фамилия">
-            <input class="input " type="text" placeholder="Имя">
-            <input class="input firstname" type="text" placeholder="Отчество">
+            <div class="name">
+                <p class="p2">Фамилия</p>
+                <input class="input lastname" type="text" placeholder="Иванов">
+            </div>
+            <div class="name">
+                <p>Имя</p>
+                <input class="input " type="text" placeholder="Иван">
+            </div>
+            <div class="name">
+                <p>Отчество</p>
+                <input class="input firstname" type="text" placeholder="Иванович">
+            </div>
         </div>
-        <div class="passport-info">
-            <p class="p2">Паспортные данные</p>
+        <div class="bd-info">
             <div class="bd">
-                <div class="data">Дата рождения</div>
-                <img class="icon" src="./img/data.svg" alt="">
-                <input class="address" type="text" placeholder="Месторождение по прописке ">
+                <div class="db">
+                    <p>Дата рождения</p>
+                    <input type="text" placeholder="12.12.2021">
+                </div>
+                <div class="address">
+                    <p>Фактическое место проживание</p>
+                    <input class="address-1" type="text" placeholder="Бишкек.Чокморова 23/3кв.43">
+                </div>
             </div>
-            <div class="dg">
-                <input class="id-info" type="text" placeholder="Серийный номер AN/ID">
-                <input class="id-info" type="text" placeholder="ИНН">
-                <div class="data-get">Дата получения</div>
-                <img class="icon-2" src="./img/data.svg" alt="">
+        </div>
+        <div class="contact">
+            <div class="number">
+                <p>Контактный номер</p>
+                <input type="text" placeholder="+996 555 000 000">
             </div>
-            <div class="contact">
-                <input class="id-info" type="text" placeholder="Контактный номер">
-                <input class="id-info" type="email" placeholder="Электронный адрес">
-                <div class="bank-info">Наименование банка</div>
-                <img class="vector" src="./img/vector.svg" alt="">
+            <div class="email">
+                <p>Электронный адрес</p>
+                <input type="email" placeholder="Ivanov@mail.ru">
+            </div>
+        </div>
+        <p class="p1">Пасспортные данные</p>
+        <div class="passport-info">
+            <div class="id-number">
+                <p class="p2">Серийный номер AN/ID</p>
+                <input class="id-n" type="text" placeholder="AN1234567">
+            </div>
+            <div class="id-number2">
+                <p>ИНН</p>
+                <input type="text" placeholder="12345678987654">
+            </div>
+            <div class="data-get">
+                <p>Дата получания</p>
+                <input type="text" placeholder="12.12.2021">
+            </div>
+        </div>
+        <div class="bank">
+            <div class="bank-name">
+                <p class="p2">Наименования банка</p>
+                <input class="bn" type="text" placeholder="Выберите банк">
+            </div>
+            <div class="bank-address">
+                <p>Место проживание по прописке</p>
+                <input class="address-1" type="text" placeholder="Бишкек.Чокморова 23/3кв.43">
             </div>
         </div>
     </div>
-</div>
-
 </body>
 </html>
