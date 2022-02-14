@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
     <div class="container">
@@ -68,6 +69,103 @@
             <div class="bank-address">
                 <p>Место проживание по прописке</p>
                 <input class="address-1" type="text" placeholder="Бишкек.Чокморова 23/3кв.43">
+            </div>
+        </div>
+        <div class="main2">
+            <div>
+                <div class="money-info">
+                    <h2>Данные о ваших доходах</h2>
+                    <div class="part1">
+                        <div class="company">
+                            <p>Органзация</p>
+                            <input class="companyinput" type="text" placeholder="Megacom">
+                        </div>
+                        <div class="position">
+                            <p>Должность</p>
+                            <input class="positioninput" type="text" placeholder="Ведущий бухгалтер">
+                        </div>
+                    </div>
+                    <div class="part1">
+                        <div class="earn3">
+                            <p>Заработная Плата  за 3 месяца</p>
+                            <input class="earn" type="text">
+                        </div>
+                        <div class="earnmain">
+                            <p>Заработная Плата  за посл.  3 месяца</p>
+                            <input class="earn" type="text">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="creditinfo">
+                <h2>Сведения о кредите</h2>
+                <div class="part3">
+                    <div class="creditiphone">
+                        <p>Покупка телефона ( наименование товара)</p>
+                        <input class="phone" type="text" placeholder="Phone XS 256Gb">
+                    </div>
+                </div>
+                <div class="part1">
+                    <div>
+                        <p>Стоимость товара</p>
+                        <input type="text" placeholder="65 000 сом">
+                    </div>
+                   <div>
+                       <p>Количество товара</p>
+                       <input type="text" placeholder="1 шт">
+                   </div>
+                    <div>
+                        <p>Итого сумма кредита</p>
+                        <input type="text" placeholder="65 000 сом">
+                    </div>
+                </div>
+                <div class="part1">
+                    <div class="part1-1">
+                    <p>Вид кредита</p>
+                        <select name="credit">
+                            <option hidden disabled selected value> Кредит/рассрочка</option>
+                            <option class="value1" >Кредит</option>
+                            <option class="value2">Рассрочка</option>
+                        </select>
+                    </div>
+                    <div class="part1-1">
+                        <p>Срок кредита (мес)</p>
+                        <select>
+                        <option hidden selected value> мин 3 месяца</option>
+                        <option class="value1">3 месяца</option>
+                        <option class="value2">6 месяцев</option>
+                        <option class="value3">9 месяцев</option>
+                        <option class="value4">12 месяцев</option>
+                        </select>
+                    </div>
+                    <div class="part1-1">
+                        <p>Точка получения товара</p>
+                        <select class="row6">
+                            <option hidden disabled selected value>Выберите адрес</option>
+                            <optgroup label="ТЦ «Азия Молл»" class="optgroup">
+                                <option class="color-choose" value="2"> пр. Айтматова, 3, ТЦ «Asia Mall», этаж 0</option>
+                            </optgroup>
+                            <optgroup label="ТЦ ГУМ «Чынар»" class="optgroup">
+                                <option class="color-choose" value="2">  пр.Чуй 92, ТРК ГУМ «Чынар», этаж -1 , бутик M9 (северная сторона)</option>
+                            </optgroup>
+                            <optgroup label="ТЦ «Beta Stores - 2»" class="optgroup">
+                                <option class="color-choose" value="2"> ул. Юнусалиева 177/2,торговый центр «Beta Stores - 2»</option>
+                            </optgroup>
+                            <optgroup label="ТЦ Vefa Center" class="optgroup">
+                                <option class="color-choose" value="2"> ул. Горького 27/1,"Vefa Center",1 этаж. Бутик № 20</option>
+                            </optgroup>
+                            <optgroup label="ТЦ «Беш-Сары Сити» " class="optgroup">
+                                <option class="color-choose" value="2"> Бейшеналиева 42А, ТЦ «Беш-Сары Сити»</option>
+                            </optgroup>
+                            <optgroup label="ТРЦ «Аламедин Гранд»" class="optgroup">
+                                <option class="color-choose" value="2">  пр. Жибек Жолу, 150 ТРЦ «Аламедин Гранд», 1 этаж, Бутик №1 (вход с ул. Алма-Атинская)</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button>Оформить заявку</button>
             </div>
         </div>
     </div>
