@@ -44,6 +44,9 @@ input{
     margin-right: 8px;
     margin-top: -8px;
 }
+input::-webkit-input-placeholder {
+    color: #DADADA;
+}
 
 .lastname, .id-n, .bn  {
     margin-left: 20px;
