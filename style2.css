@@ -27,3 +27,12 @@ input{
 p{
     margin-bottom: 0;
 }
+.companyinput{
+    width: 200px;
+}
+.positioninput{
+    width: 408px;
+}
+.earn{
+    width: 304px;
+}
